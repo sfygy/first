@@ -1,4 +1,5 @@
 /*
+就这样改吧
 Navicat MySQL Data Transfer
 
 Source Server         : mysql
@@ -19,7 +20,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- Table structure for `clazz`
 -- ----------------------------
 DROP TABLE IF EXISTS `clazz`;
-CREATE TABLE `clazzcc` (
+CREATE TABLE `clazz` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `gradeid` int(11) DEFAULT NULL,
